@@ -1,0 +1,9 @@
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  margin-right: 93px;
+  color: $accent-color;
+  &__left {
+    color: $botton-color;
+  }
+}

@@ -1,0 +1,25 @@
+.contact__list {
+  padding-left: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__item {
+  padding-bottom: 0;
+  margin-left: 40px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+.contact__link {
+  color: $primary-color;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.contact__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

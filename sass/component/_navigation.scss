@@ -1,0 +1,25 @@
+.nav__list {
+  display: flex;
+  position: relative;
+  /*  justify-content: space-between;*/
+}
+.nav__item {
+  margin-left: 50px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+.nav__link {
+  font-weight: 500;
+  font-size: 14px;
+  color: $accent-color;
+  &:hover {
+    color: $botton-color;
+  }
+  &:focus {
+    color: $botton-color;
+  }
+  &:active {
+    color: $botton-color;
+  }
+}

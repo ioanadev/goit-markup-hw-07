@@ -1,0 +1,58 @@
+.hero {
+  background-color: $foreground-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 200px;
+}
+.overlay-image {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../../images/overlay-img.jpg");
+  background-size: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero__title {
+  width: 696px;
+  height: 120px;
+  margin-bottom: 30px;
+  .title {
+    color: $secondary-color;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+}
+
+.hero__button {
+  padding-bottom: 200px;
+  .button {
+    background-color: $botton-color;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: $secondary-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    &:hover,
+    &:focus {
+      background-color: $hover-color;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import "utils/variables.scss";
+body {
+  font-family: "Roboto";
+  color: $primary-color;
+  font-weight: 400;
+}
+* {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+a {
+  text-decoration: none;
+}
+address {
+  all: initial;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+@import "component/header";
+@import "component/logo";
+
+.list {
+  list-style-type: none;
+}
+@import "component/navigation";
+
+.current-page-link::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  color: $botton-color;
+  background-color: $botton-color;
+  position: absolute;
+  top: 46px;
+}
+@import "component/contact";
+@import "component/hero";
+@import "component/offer";
+@import "component/products";
+@import "component/team";
+@import "component/customers";
+@import "component/footer";
