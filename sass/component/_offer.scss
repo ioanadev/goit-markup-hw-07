@@ -1,10 +1,7 @@
 .grid {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-
-  &__card {
+  justify-content: space-between;
+  &__box {
     width: 270px;
     height: 120px;
     background-color: $background-color;
@@ -14,16 +11,18 @@
     margin-bottom: 30px;
   }
   &__title {
-    color: $accent-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
+    width: 270px;
   }
   &__description {
     font-size: 14px;
     line-height: 171%;
     width: 270px;
     height: 75px;
+    /* margin-right: 30px;*/
+    margin-top: 10px;
   }
 }

@@ -325,6 +325,7 @@ input:hover + svg,
 input:focus + svg {
   fill: var(--blue-color);
 }
+/* ramas de codat*/
 .checkbox-replace {
   display: inline-block;
   width: 16px;

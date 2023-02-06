@@ -1,0 +1,12 @@
+.logo {
+  /*margin-right: 93px;*/
+  color: $accent-color;
+  font-family: "Raleway";
+  font-weight: 700;
+  &--blue {
+    color: $botton-color;
+  }
+  &--white {
+    color: $secondary-color;
+  }
+}

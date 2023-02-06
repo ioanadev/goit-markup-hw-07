@@ -1,13 +1,13 @@
-.grid__item--custo {
+.grid__item--shadow {
+  box-shadow: none;
   width: 170px;
   height: 92px;
+  fill: $social-color;
+  border: 1px solid $social-color;
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: $social-color;
-  border: 1px solid $social-color;
-  &:hover,
-  &:focus {
+  &:hover {
     fill: $botton-color;
     border: 1px solid $botton-color;
   }

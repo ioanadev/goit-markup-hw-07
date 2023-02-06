@@ -1,12 +1,12 @@
 .header {
   border-bottom: 1px solid $social-color;
-  .top-line {
+  &__top-line {
     left: 0px;
+    display: flex;
     top: 0px;
+    margin: 0 auto;
+    align-items: center;
     margin-top: 25px;
     margin-bottom: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 }
