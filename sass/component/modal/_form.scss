@@ -109,3 +109,32 @@
     }
   }
 }
+.checkbox-replace {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid $accent-color;
+  border-radius: 2px;
+  margin-left: 52px;
+  margin-right: 8px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]:checked + .checkbox-replace {
+  border-color: $botton-color;
+  background-color: $botton-color;
+}
+
+label span svg.check-svg {
+  /* position: absolute;*/
+  top: 10%;
+  left: 11%;
+  fill: $secondary-color;
+}
+
+.checkbox label {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
