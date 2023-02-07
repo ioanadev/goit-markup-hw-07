@@ -193,12 +193,12 @@ ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.form textarea__btn {
+.form__btn {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.form textarea__btn-sent {
+.form__btn-sent {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: #2196f3;
   border: none;
@@ -215,7 +215,7 @@ ul {
   letter-spacing: 0.06em;
   margin-top: 30px;
 }
-.form textarea__btn-sent:hover, .form textarea__btn-sent:focus {
+.form__btn-sent:hover, .form__btn-sent:focus {
   background-color: #188ce8;
   cursor: pointer;
 }

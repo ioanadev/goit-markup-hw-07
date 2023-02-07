@@ -78,34 +78,33 @@
       letter-spacing: 0.01em;
       color: rgba(117, 117, 117, 0.5);
     }
+  }
+  //de codat checkbox
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    //de codat checkbox
-    &__btn {
+    &-sent {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      background-color: $botton-color;
+      border: none;
+      border-radius: 4px;
+      min-width: 200px;
+      height: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
-
-      &-sent {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        background-color: $botton-color;
-        border: none;
-        border-radius: 4px;
-        min-width: 200px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 188%;
-        color: $secondary-color;
-        letter-spacing: 0.06em;
-        margin-top: 30px;
-        &:hover,
-        &:focus {
-          background-color: $hover-color;
-          cursor: pointer;
-        }
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 188%;
+      color: $secondary-color;
+      letter-spacing: 0.06em;
+      margin-top: 30px;
+      &:hover,
+      &:focus {
+        background-color: $hover-color;
+        cursor: pointer;
       }
     }
   }
